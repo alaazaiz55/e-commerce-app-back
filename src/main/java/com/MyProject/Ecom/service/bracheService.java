@@ -19,6 +19,10 @@ public class bracheService {
             throw new ValidationException("coupon code already exists.");
         }
         return couponRepository.save(coupon);
+        System.out.println("test");
+        System.out.println("test1");
+        System.out.println("test2");
+        System.out.println("test3");
     }
 
     public List<Coupon> getAllCoupons(){
